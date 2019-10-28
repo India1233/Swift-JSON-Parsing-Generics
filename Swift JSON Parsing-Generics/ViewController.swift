@@ -9,13 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var animalArr:[Animal] = []
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
         parsingJSON()
-    }
+        
+
+            }
 
     func parsingJSON()  {
         let url = URL(string: "http://www.json-generator.com/api/json/get/cgtNBfTPiq?")!
@@ -32,7 +37,10 @@ class ViewController: UIViewController {
                 print(error.localizedDescription)
                 
             case .success(let animals):
-                print(animals)
+                //print(animals)
+                self.animalArr = animals
+                
+
             }
         }
     }
