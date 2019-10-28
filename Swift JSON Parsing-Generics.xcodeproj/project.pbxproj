@@ -15,6 +15,8 @@
 		D169F8B22366E10F00EC6613 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D169F8B02366E10F00EC6613 /* LaunchScreen.storyboard */; };
 		D169F8BD2366E11000EC6613 /* Swift_JSON_Parsing_GenericsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D169F8BC2366E11000EC6613 /* Swift_JSON_Parsing_GenericsTests.swift */; };
 		D169F8C82366E11000EC6613 /* Swift_JSON_Parsing_GenericsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D169F8C72366E11000EC6613 /* Swift_JSON_Parsing_GenericsUITests.swift */; };
+		D169F8D62366E14100EC6613 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D169F8D52366E14100EC6613 /* JSONParser.swift */; };
+		D169F8D82367067000EC6613 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D169F8D72367067000EC6613 /* Animal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		D169F8C32366E11000EC6613 /* Swift JSON Parsing-GenericsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift JSON Parsing-GenericsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D169F8C72366E11000EC6613 /* Swift_JSON_Parsing_GenericsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_JSON_Parsing_GenericsUITests.swift; sourceTree = "<group>"; };
 		D169F8C92366E11000EC6613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D169F8D52366E14100EC6613 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		D169F8D72367067000EC6613 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				D169F8A52366E10900EC6613 /* AppDelegate.swift */,
 				D169F8A72366E10900EC6613 /* SceneDelegate.swift */,
 				D169F8A92366E10900EC6613 /* ViewController.swift */,
+				D169F8D52366E14100EC6613 /* JSONParser.swift */,
+				D169F8D72367067000EC6613 /* Animal.swift */,
 				D169F8AB2366E10900EC6613 /* Main.storyboard */,
 				D169F8AE2366E10F00EC6613 /* Assets.xcassets */,
 				D169F8B02366E10F00EC6613 /* LaunchScreen.storyboard */,
@@ -261,7 +267,9 @@
 			files = (
 				D169F8AA2366E10900EC6613 /* ViewController.swift in Sources */,
 				D169F8A62366E10900EC6613 /* AppDelegate.swift in Sources */,
+				D169F8D62366E14100EC6613 /* JSONParser.swift in Sources */,
 				D169F8A82366E10900EC6613 /* SceneDelegate.swift in Sources */,
+				D169F8D82367067000EC6613 /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
